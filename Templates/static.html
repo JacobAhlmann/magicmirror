@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script type="text/javascript" src={{url_for('static', filename='magicmirror.js')}}></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <link rel=stylesheet type=text/css href={{url_for('static', filename='magicmirror.css')}}>
+
+  </head>
+  <body>
+    <div id="clock"></div>
+    <div id="weather"></div>
+
+    <div style="width: 400px; height: 500px" id=chartArea>
+      <canvas id="myChart"></canvas>
+    </div>
+</html>

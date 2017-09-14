@@ -1,0 +1,21 @@
+body{
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+#weather{
+  color: #FFF;
+  font-size: 18;
+
+
+}
+
+#clock{
+  color: #FFF;
+  font-size: 56;
+  text-align: center;
+}
+
+#chartArea{
+  padding-top: 50px;
+}
